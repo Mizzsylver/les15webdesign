@@ -1,0 +1,90 @@
+*{
+margin-left: auto;
+margin-right: auto;
+}
+body{
+font-family: Arial, Helvetica, sans-serif;
+background-color: #F5DEB3;
+padding: 5px;
+}
+header{
+background-color: #CD853F;
+width: 514px;
+padding: 5px;
+}
+ul a{
+color: #800000;
+font-family: Arial, Helvetica, sans-serif;
+}
+li{
+display: inline-block;
+height: 22px;
+width: 120px;
+padding: 10px;
+text-align: center;
+background-color: #BC8F8F;
+}
+li:hover{
+background-color: #DEB887;
+border-style: none;
+}
+.p1{
+color: #800000;
+background-color: #DEB887;
+font-family: Arial, Helvetica, sans-serif;
+width: 500px;
+height: auto;
+border-style: solid;
+border-width: 2px;
+border-color: #BC8F8F;
+padding: 10px;
+}
+.opmaak{
+  color: #800000;
+  background-color: #DEB887;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 500px;
+  height: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #BC8F8F;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#kop{
+  background-color: #BC8F8F;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+#kop2{
+  background-color: #CD853F;
+  color: white;
+}
+form
+input[type="text"], input[type="email"], textarea, select,
+button{
+  display: block;
+  margin: 15px 0px;
+  width: 500px;
+  box-sizing: border-box;
+}
+button:active{
+  background-color: #CD853F;
+  color: white;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px orange;
+}
+textarea{
+  height: 100px;padding: 5px 4px;
+}
+footer{
+color: #800000;
+background-color: #CD853F;
+font-family: Arial, Helvetica, sans-serif;
+width: 514px;
+height: 30px;
+text-align: center;
+padding: 5px;
+}
